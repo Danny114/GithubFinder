@@ -31,7 +31,7 @@ export class User extends Component {
     }
     return (
       <Fragment>
-        <Link exact to="/" className="btn btn-light">
+        <Link to="/" className="btn btn-light">
           Back to Search
         </Link>
         Hireable: {""}
@@ -58,9 +58,6 @@ export class User extends Component {
                 <p>{bio}</p>
               </Fragment>
             )}
-            <a href={html_url} className="btn btn-dark my-1">
-              Visit Github Page
-            </a>
             <ul>
               <li>
                 {login && (
@@ -84,6 +81,9 @@ export class User extends Component {
                 )}
               </li>
             </ul>
+            <a href={html_url} className="btn btn-dark my-1">
+              Visit Github Page
+            </a>
           </div>
         </div>
         <div className="card text-center">
