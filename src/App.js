@@ -14,7 +14,8 @@ class App extends Component {
     users: [],
     loading: false,
     alert: null,
-    user: {}
+    user: {},
+    repos: []
   };
   // async componentDidMount() {
   //   this.setState({ loading: true });
@@ -31,6 +32,15 @@ class App extends Component {
       `https://api.github.com/users/${username}?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`
     );
     this.setState({ user: res.data, loading: false });
+  };
+
+  //get users repo
+  getUserRepos = async username => {
+    this.setState({ loading: true });
+    const res = await axios.get(
+      `https://api.github.com/users/${username}/repos?per_page=5&sort=created:asc&?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`
+    );
+    this.setState({ repos: res.data, loading: false });
   };
 
   //search users based on input field
@@ -87,7 +97,9 @@ class App extends Component {
                   <User
                     {...props}
                     getUser={this.getUser}
+                    getUserRepos={this.getUserRepos}
                     user={this.state.user}
+                    repos={this.state.repos}
                     loading={this.state.loading}
                   />
                 )}
