@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Danny114/GithubFinder/static/css/main.f65227a3.chunk.css",
-    "main.js": "/Danny114/GithubFinder/static/js/main.416ae8c4.chunk.js",
-    "main.js.map": "/Danny114/GithubFinder/static/js/main.416ae8c4.chunk.js.map",
-    "runtime~main.js": "/Danny114/GithubFinder/static/js/runtime~main.592126de.js",
-    "runtime~main.js.map": "/Danny114/GithubFinder/static/js/runtime~main.592126de.js.map",
-    "static/js/2.41af2bc9.chunk.js": "/Danny114/GithubFinder/static/js/2.41af2bc9.chunk.js",
-    "static/js/2.41af2bc9.chunk.js.map": "/Danny114/GithubFinder/static/js/2.41af2bc9.chunk.js.map",
-    "index.html": "/Danny114/GithubFinder/index.html",
-    "precache-manifest.5fb959ad868375a39d31db0a636d2943.js": "/Danny114/GithubFinder/precache-manifest.5fb959ad868375a39d31db0a636d2943.js",
-    "service-worker.js": "/Danny114/GithubFinder/service-worker.js",
-    "static/css/main.f65227a3.chunk.css.map": "/Danny114/GithubFinder/static/css/main.f65227a3.chunk.css.map"
+    "main.css": "/GithubFinder/static/css/main.f65227a3.chunk.css",
+    "main.js": "/GithubFinder/static/js/main.b9831a82.chunk.js",
+    "main.js.map": "/GithubFinder/static/js/main.b9831a82.chunk.js.map",
+    "runtime~main.js": "/GithubFinder/static/js/runtime~main.41913b39.js",
+    "runtime~main.js.map": "/GithubFinder/static/js/runtime~main.41913b39.js.map",
+    "static/js/2.41af2bc9.chunk.js": "/GithubFinder/static/js/2.41af2bc9.chunk.js",
+    "static/js/2.41af2bc9.chunk.js.map": "/GithubFinder/static/js/2.41af2bc9.chunk.js.map",
+    "index.html": "/GithubFinder/index.html",
+    "precache-manifest.314c8c972929a05de1301c5434bf214b.js": "/GithubFinder/precache-manifest.314c8c972929a05de1301c5434bf214b.js",
+    "service-worker.js": "/GithubFinder/service-worker.js",
+    "static/css/main.f65227a3.chunk.css.map": "/GithubFinder/static/css/main.f65227a3.chunk.css.map"
   }
 }
